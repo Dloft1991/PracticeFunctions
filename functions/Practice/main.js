@@ -21,7 +21,7 @@ function myNumber() {
 }
 
 // array for the getNames function
-var names = ["Derek", "Malissa", "Analisse", "Mya", "Juji", "Jesus", "Felicia", "Amina"];
+var names = ["Iron Man", "Thor", "Spider Man", "Scarlet Witch", "Hulk", "Vision", "Black Widow", "Hawk Eye"];
 function getNames() {
     return names[Math.floor(Math.random() * names.length)];
 }
