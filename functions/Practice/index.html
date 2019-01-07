@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Fontdiner+Swanky" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main> 
+
+
+<button id="begin" name="button" value="Begin" onclick="pageLoad();">Begin</button>
+<button id="show" name="show" value="show" onclick="show();">Show</button>
+<button id="hide" name="hide" value="hide" onclick="hide();">Hide</button>
+<button id="myNumber" name="number" value="number" onclick="myNumber();">Favorite Number</button>
+<button onclick="document.getElementById('random').innerHTML = getRandom(0,20)">Randomizer</button>
+<button onclick="document.getElementById('names').innerHTML = getNames(0,20)">Names</button>
+<h1>Random Number: <p id="random"></p></h1>
+<h1>Random Names: <p id="names"></p></h1>
+<img id="img" src="https://vignette.wikia.nocookie.net/marveldatabase/images/0/06/Iron_Man_Armor_Model_37.jpg/revision/latest?cb=20170122060858">
+
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="main.js"></script>
+
+    </main>
+
+
+</body>
+</html>
